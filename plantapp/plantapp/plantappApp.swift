@@ -11,7 +11,10 @@ import SwiftUI
 struct plantappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .preferredColorScheme(.dark)
+                
+            
         }
     }
 }
