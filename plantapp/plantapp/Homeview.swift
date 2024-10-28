@@ -79,6 +79,7 @@ struct HomeView: View {
                         .font(.title)
                         .padding(.horizontal)
                         .bold()
+                        
                     
                     List {
                         ForEach(sortedPlants()) { plant in
@@ -105,6 +106,7 @@ struct HomeView: View {
                         }
                     }
                 }
+                .listStyle(PlainListStyle())
             }
             Spacer()
 
@@ -159,36 +161,40 @@ struct PlantRow: View {
                 toggleWatered(plant)
             }) {
                 Image(systemName: plant.isChecked ? "checkmark.circle.fill" : "circle")
-                    .frame(width: 20, height: 20)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 23, height:23 )
+                    .padding(3)
                     .foregroundColor(plant.isChecked ? .color : .gray)
             }
             .buttonStyle(PlainButtonStyle())
 
-                VStack(alignment: .leading, spacing: 5) {
+                VStack(alignment: .leading, spacing:5) {
                     HStack {
                         Image(systemName: "location")
+                            .foregroundColor(.gray)
                         Text("in \(plant.room)")
                             .font(.subheadline)
                             .foregroundColor(.gray)
                     }
                     
                     Text(plant.name)
-                        .font(.headline)
-                    
+                        .font(.system(size: 28 , weight: .light))
+                        .foregroundColor(plant.isChecked ?  .secondary : .primary)
+                                            
                   
                     HStack {
                         Label(plant.light, systemImage: "sun.max")
                             .font(.system(size: 14, weight: .light))
                             .padding(3)
-                            .foregroundColor(.colory)
-                            .background(Color.gray.opacity(0.2))
+                            .foregroundColor( .colory)
+                            .background(plant.isChecked ? Color.gray.opacity(0.1) :Color.gray.opacity(0.2) )
                             .cornerRadius(8)
                         Label(plant.waterAmount, systemImage: "drop")
                             .font(.system(size: 14, weight: .light))
                             .padding(3)
                             .foregroundColor(.colorb)
-                            .background(Color.gray.opacity(0.2))
-                            .cornerRadius(8)
+                            .background(plant.isChecked ? Color.gray.opacity(0.1) :Color.gray.opacity(0.2) )                            .cornerRadius(8)
                     }
                 }
                 Spacer()

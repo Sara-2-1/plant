@@ -78,7 +78,7 @@ struct PlantReminderSheet: View {
                     if plantToEdit != nil {
                         Section {
                             Button(action: deletePlant) {
-                                Text("Delete Plant")
+                                Text("Delete Reminde ")
                                     .frame(maxWidth: .infinity)
                                     .foregroundColor(.red)
                                     .font(.system(size: 20))
