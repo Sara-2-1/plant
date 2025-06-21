@@ -7,6 +7,7 @@ Welcome to the Plant App! This intuitive application is designed to help you kee
 - **Easy Management**: Add, edit, and delete plant reminders with ease.
 - **Detailed Tracking**: Record the room, light conditions, and specific watering needs for each plant.
 - **Progress Updates**: mark tasks as completed to stay on top of your plant care routine.
+![Screenshot 1446-12-25 at 10 48 31 PM](https://github.com/user-attachments/assets/b108a128-15d3-49cc-8638-d0420aa88848)
 
 ## App Flow
 
@@ -15,13 +16,13 @@ Welcome to the Plant App! This intuitive application is designed to help you kee
 3. **Today's Reminders**: View a list of plants that need attention today.
 4. **Edit/Delete Plant**: Modify plant details or remove them from your list as needed.
 5. **Completion**: Celebrate when all your plant care tasks are finished!
-<img width="873" alt="Screenshot 1446-04-25 at 4 01 44 PM" src="https://github.com/user-attachments/assets/2b4b2833-650c-43a1-9a41-2a65ba6b104a">
+<img width="873" alt="Screenshot 1446-04-25 at 4 01 44 PM" src="[https://github.com/user-attachments/assets/2b4b2833-650c-43a1-9a41-2a65ba6b104a](https://github.com/user-attachments/assets/b108a128-15d3-49cc-8638-d0420aa88848
 
 
 ## Screenshots
 
 ### Start Your Journey
-<img src="https://github.com/user-attachments/assets/4a7be8a2-ba81-4955-aacc-ec90f6113c94" width="200">
+<img src="https://github.com/user-attachments/assets/f516d92b-2c6d-452b-b798-b0032d01383b" width="200">
 
 ### Set Reminder
 <img src="https://github.com/user-attachments/assets/346dd044-dc97-47c6-91f0-86be8d2d6242" width="200">
@@ -32,12 +33,12 @@ Welcome to the Plant App! This intuitive application is designed to help you kee
 
 ### Edit/Delete Plant
 
-<img src="https://github.com/user-attachments/assets/07032204-ccf4-46fe-9c44-ca4a4e8de2d9" width="200">
-<img src="https://github.com/user-attachments/assets/4b3ed456-b8d6-44ea-8229-49c62cff6268" width="200">
+<img src="https://github.com/user-attachments/assets/8de55d3d-288c-48fa-9385-834e725dfeb4" width="200">
+<img src="https://github.com/user-attachments/assets/d0bc1db0-8ebf-4fd7-a8dc-9a376edd583f" width="200">
 
 
 ### Completion
-<img src="https://github.com/user-attachments/assets/b50a5a51-f921-4568-8296-d9a582545286" width="200">
+<img src="https://github.com/user-attachments/assets/c99412d9-910c-434e-b0a6-0691b277ae4e" width="200">
 
 
 
